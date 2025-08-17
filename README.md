@@ -1,45 +1,27 @@
-Movie Browsing Website
+## Movie Browsing Website
 
-A responsive, interactive movie browsing website built with HTML, CSS, Bootstrap, and JavaScript.
-This project is created for educational and portfolio purposes only, showcasing web development skills such as responsive design, layout structuring, and interactive UI elements.
+Movie Browsing Website is a front-end responsive project built using **HTML, CSS, Bootstrap v5.0, and JavaScript**.  
+It is a static website created for practice, learning, and portfolio showcasing purposes.
 
-✨ Features
+## Features
+- 📱 Fully responsive design (desktop, tablet & mobile)
+- 🎨 Modern UI layout with navigation bars, hero banners & sections
+- 🔍 Search functionality powered by JavaScript
+- 🖼️ Grid-based sections for movies and shows
+- ⚡ Bootstrap integration for responsiveness & prebuilt components
+- 🧩 Clean and organized code structure
 
-📱 Responsive Design – Optimized for desktop, tablet, and mobile devices
+## Purpose
+This project is for **educational and personal learning** use only.  
+It demonstrates skills in responsive design, layout structuring, and interactive UI elements.
 
-🎨 Styled UI – Custom navigation bars, hero banners, and content sections
+## Tech Stack
+- **HTML5** – Semantic page structure  
+- **CSS3** – Custom styling and responsiveness  
+- **Bootstrap 5** – Grid system & reusable UI components  
+- **JavaScript (Vanilla)** – Interactivity & DOM manipulation  
 
-🔍 Search Functionality – Search input with JavaScript interactivity
+## Disclaimer
 
-🖼️ Dynamic Layouts – Grid-based sections for movies and shows
-
-⚡ Bootstrap Integration – For grid, responsiveness, and reusable components
-
-🧩 Clean Code – Organized structure for easy updates and customization
-
-🛠️ Tech Stack
-
-HTML5 – Semantic page structure
-
-CSS3 – Custom styling and responsiveness
-
-Bootstrap 5 – Layout grid and prebuilt components
-
-JavaScript (Vanilla) – Interactivity and DOM manipulation
-
-🚀 How to Run
-
-Clone the repository
-
-git clone https://github.com/your-username/movie-browsing-website.git
-
-
-Open index.html in your browser
-
-Explore and customize 🎉
-
-
-📢 Disclaimer
-
-This website is developed only for educational and project demonstration purposes.
-All images/posters used (if any) belong to their respective owners. We do not claim ownership or affiliation.
+This project is not affiliated with any real movie browsing platform or service.
+It is a safe, static website created for learning and portfolio purposes, with no backend, real data, or transactions.
