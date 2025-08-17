@@ -1,6 +1,6 @@
 ## Movie Browsing Website
 
-Movie Browsing Website is a front-end responsive project built using **HTML, CSS, Bootstrap v5.0, and JavaScript**.  
+A Movie Browsing Website, front-end responsive project built using **HTML, CSS, Bootstrap v5.0, and JavaScript**.  
 It is a static website created for practice, learning, and portfolio showcasing purposes.
 
 ## Features
