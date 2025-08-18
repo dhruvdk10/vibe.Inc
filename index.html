@@ -151,7 +151,7 @@
 
 
       .card:hover {
-        transform: scale(1.03);
+        transform: scale(1.01);
         border-radius: 4px;
         cursor: pointer;
       }
@@ -197,6 +197,11 @@
 
       .carousel-control-next {
         right: 0px;
+      }
+
+      .g-1-5 {
+        --bs-gutter-x: 5px;
+        --bs-gutter-y: 5px;
       }
 
       footer {
@@ -886,7 +891,7 @@
               container.className = 'container-fluid ms-2';
 
               const row = document.createElement('div');
-              row.className = 'row g-2';
+              row.className = 'row g-1-5';
 
               allCards.slice(i, i + cardsPerSlide).forEach(card => {
                 row.appendChild(card.cloneNode(true));
