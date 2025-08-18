@@ -46,7 +46,7 @@
       .play {
         position: absolute;
         bottom: 0%;
-        left: 86%;
+        left: 87%;
         transform: translate(-50%, -50%);
       }
 
@@ -146,6 +146,7 @@
       .container-xl,
       .container-xxl {
         padding-left: 0 !important;
+        margin-left: 10px;
       }
 
 
@@ -175,7 +176,7 @@
 
       h4 {
         color: white;
-        padding-left: 6px;
+        padding-left: 10px;
         margin-bottom: 10px;
         margin-top: 30px;
         font-weight: 700;
@@ -192,7 +193,7 @@
       }
 
       .carousel-control-prev {
-        left: 0px;
+        left: 15px;
       }
 
       .carousel-control-next {
@@ -232,7 +233,7 @@
 
         .play {
           top: 40%;
-          left: 69%;
+          left: 70%;
         }
 
         .info {
@@ -264,19 +265,31 @@
           font-size: 13px;
         }
 
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+          padding-left: 0 !important;
+          margin-left: 5px;
+        }
+
 
         .carousel-control-prev {
           bottom: 30px;
-          left: 10px;
+          left: 15px;
         }
 
         .carousel-control-next {
           bottom: 30px;
-          right: 10px;
+          right: 5px;
         }
 
         h4 {
           margin-top: 5px;
+          padding-left: 5px;
         }
 
         footer {
@@ -298,7 +311,7 @@
 
         <div class="d-flex align-items-center">
           <form class="d-flex align-items-center" role="search">
-            <input id="search-input" class="form-control mx-2 d-none" type="search" placeholder="Find your vibe." aria-label="Search" style="width: 270px; background: black; color: #fff; border: none;">
+            <input id="search-input" class="form-control mx-2 d-none" type="search" placeholder="Find your vibe." aria-label="Search" style="width: 265px; background: black; color: #fff; border: none;">
             <button id="search-toggle" class="btn btn-link text-white px-2" type="button">
               <i class="fas fa-search text-white fs-4"></i>
             </button>
@@ -888,7 +901,7 @@
               item.className = 'carousel-item' + (i === 0 ? ' active' : '');
 
               const container = document.createElement('div');
-              container.className = 'container-fluid ms-1';
+              container.className = 'container-fluid';
 
               const row = document.createElement('div');
               row.className = 'row g-1-5';
@@ -919,5 +932,3 @@
   </body>
 
 </html>
-
-
