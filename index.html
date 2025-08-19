@@ -348,7 +348,7 @@ select:focus {
               <i class="fa fa-user fs-4 text-info"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="profileDropdown">
-              <li><a class="dropdown-item" href="#">Log In</a></li>
+              <li><a class="dropdown-item" href="#"  data-bs-toggle="modal" data-bs-target="#myModal">Log In</a></li>
               <li><a class="dropdown-item" href="#">Sign Out</a></li>
             </ul>
           </div>
@@ -376,6 +376,64 @@ select:focus {
         </div>
       </div>
     </nav>
+
+    <section class="form-box mt-5 mb-5">
+      <div class="container">
+        <div class="modal fade" id="myModal">
+          <div class="modal-dialog modal-dialog-centered border-0" style="max-width: 450px; width: 85%; margin: auto;">
+            <div class="modal-content text-white" style="background-color: #1b2b3e; height: 600px; border-radius: 12px;">
+              <div class="modal-header border-0 d-block text-center position-relative">
+                <h3 class="modal-title fw-bold mt-4">Log In</h3>
+                <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0 mt-2 me-3" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body px-4 ">
+
+                <div class="input-group mb-3" style="border-radius: 12px; height: 40px;">
+                  <span class="input-group-text bg-white border-0" style="border-top-left-radius: 12px; border-bottom-left-radius: 12px;">
+                    <i class="fa fa-user text-black"></i>
+                  </span>
+                  <input type="text" class="form-control border-0" placeholder="Username or Email Address" style="border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                </div>
+
+                <div class="input-group mb-3 mx-auto" style="border-radius: 12px; height: 40px;">
+                  <span class="input-group-text bg-white border-0" style="border-top-left-radius: 12px; border-bottom-left-radius: 12px;">
+                    <i class="fa fa-lock text-black"></i>
+                  </span>
+                  <input type="password" class="form-control border-0" placeholder="Password" style="border-top-right-radius: 12px; border-bottom-right-radius: 12px;">
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mb-4">
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="rememberMe">
+                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                  </div>
+                  <a href="#" class="text-info text-decoration-none">Forgot Password?</a>
+                </div>
+
+                <div class="d-grid">
+                  <button class="btn btn-secondary fw-bold mb-3" style="border-radius: 12px; height: 42px;">Login</button>
+                </div>
+
+                <div class="d-flex align-items-center text-light my-4">
+                  <hr class="flex-grow-1 border-light"><span class=" px-3">Or login with</span>
+                  <hr class="flex-grow-1 border-light">
+                </div>
+
+                <div class="d-flex justify-content-center gap-4 mb-4">
+                  <a href="#" class="btn btn-outline-light rounded-circle px-3 py-2"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="btn btn-outline-light rounded-circle px-3 py-2"><i class="fab fa-x-twitter"></i></a>
+                  <a href="#" class="btn btn-outline-light rounded-circle px-3 py-2"><i class="fab fa-google"></i></a>
+                </div>
+
+                <div class="text-center">
+                  <span>Do not have an account? <a href="#" class="text-info text-decoration-none">Sign up now</a></span>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <section class="img_display">
       <div id="mybannerCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -952,6 +1010,7 @@ select:focus {
   </body>
 
 </html>
+
 
 
 
